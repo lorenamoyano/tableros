@@ -12,7 +12,7 @@ use Illuminate\Http\Request;
 
 class NotaController extends Controller
 {
-    //
+    
     public function view(Request $req)
     {
         $idTab = $req->input('id'); //pedimos el id
